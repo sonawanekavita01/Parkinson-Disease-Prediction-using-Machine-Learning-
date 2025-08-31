@@ -62,11 +62,14 @@ ConfusionMatrixDisplay.from_estimator(models[0], X_val, Y_val)
 plt.show()
 
 📑 Classification Report (Logistic Regression)
-              precision    recall  f1-score   support
-0.0 (Healthy)    0.77      0.71      0.74        14
-1.0 (PD)        0.89      0.92      0.91        37
------------------------------------------------
-Accuracy = 0.86 (86%)
+| Class                         | Precision | Recall | F1-Score       | Support |
+| ----------------------------- | --------- | ------ | -------------- | ------- |
+| **0.0 (Healthy)**             | 0.77      | 0.71   | 0.74           | 14      |
+| **1.0 (Parkinson’s Disease)** | 0.89      | 0.92   | 0.91           | 37      |
+| **Accuracy**                  |           |        | **0.86 (86%)** | 51      |
+| **Macro Avg**                 | 0.83      | 0.82   | 0.82           | 51      |
+| **Weighted Avg**              | 0.86      | 0.86   | 0.86           | 51      |
+
 
 🔎 Key Insights
 
