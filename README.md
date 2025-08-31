@@ -44,10 +44,12 @@ XGBoost Classifier (Overfitted ❌)
 Support Vector Classifier (Low Validation Accuracy ❌)
 
 🏆 Model Performance
-Model	Train ROC AUC	Validation ROC AUC
-Logistic Regression	0.75	0.82 ✅
-XGBoost Classifier	1.00 (overfit)	0.64
-Support Vector Classifier	0.62	0.65
+| Model                     | Train ROC AUC  | Validation ROC AUC |
+| ------------------------- | -------------- | ------------------ |
+| Logistic Regression       | 0.75           | **0.82** ✅         |
+| XGBoost Classifier        | 1.00 (overfit) | 0.64               |
+| Support Vector Classifier | 0.62           | 0.65               |
+
 📌 Confusion Matrix (Logistic Regression)
 TP = 35 | TN = 10  
 FP = 4  | FN = 2
